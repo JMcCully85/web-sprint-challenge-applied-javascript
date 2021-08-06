@@ -43,7 +43,7 @@ const Card = (article) => {
   authorName.textContent = article.authorName;
 
   card.addEventListener("click", () => {
-    console.log(headline.textContent);
+    // console.log(headline.textContent);
   });
 
   return card;
